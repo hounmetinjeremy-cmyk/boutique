@@ -2,14 +2,14 @@
 // Panier sans JS cote client : etat dans ?items=1x2,3x1
 
 const PRODUCTS = [
-  { id: 1, name: 'T-shirt coton bio', desc: 'Unisexe', price: 1900, emoji: '\ud83d\udc55' },
-  { id: 2, name: 'Mug ceramique', desc: '300 ml', price: 1200, emoji: '\u2615' },
-  { id: 3, name: 'Casquette', desc: 'Ajustable', price: 1500, emoji: '\ud83e\udd22' },
-  { id: 4, name: 'Tote bag', desc: 'Toile epaisse', price: 1400, emoji: '\ud83d\udc5c' },
-  { id: 5, name: 'Carnet A5', desc: 'Pages lignees', price: 900, emoji: '\ud83d\udcd3' },
-  { id: 6, name: 'Gourde inox', desc: '500 ml', price: 2400, emoji: '\ud83e\udd64' },
-  { id: 7, name: 'Stickers', desc: 'Pack de 10', price: 500, emoji: '\u2728' },
-  { id: 8, name: 'Bougie soja', desc: 'Parfum figuier', price: 1800, emoji: '\ud83d\udd6f' }
+  { id: 1, name: 'T-shirt coton bio', desc: 'Unisexe', price: 1900, emoji: '👕' },
+  { id: 2, name: 'Mug ceramique', desc: '300 ml', price: 1200, emoji: '☕' },
+  { id: 3, name: 'Casquette', desc: 'Ajustable', price: 1500, emoji: '🧢' },
+  { id: 4, name: 'Tote bag', desc: 'Toile epaisse', price: 1400, emoji: '👜' },
+  { id: 5, name: 'Carnet A5', desc: 'Pages lignees', price: 900, emoji: '📓' },
+  { id: 6, name: 'Gourde inox', desc: '500 ml', price: 2400, emoji: '🍶' },
+  { id: 7, name: 'Stickers', desc: 'Pack de 10', price: 500, emoji: '✨' },
+  { id: 8, name: 'Bougie soja', desc: 'Parfum figuier', price: 1800, emoji: '🕯' }
 ];
 
 const EUR = c => (c / 100).toFixed(2) + ' EUR';
